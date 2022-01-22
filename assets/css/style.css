@@ -2115,7 +2115,7 @@ section {
   color: #f6b024;
 }
 
-@media(max-width:900px) and (min-width:390px) {
+@media(max-width:900px) and (min-width:300px) {
   .middle_bar .ct-left{
     text-align: center;
   }
