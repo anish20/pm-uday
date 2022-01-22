@@ -81,16 +81,11 @@
 
 
   let selectHeader = document.getElementById('header');
-
   if (selectHeader) {
     const headerScrolled = () => {
       if (window.scrollY > 100) {
         selectHeader.classList.add('scrolled-header');
         selectHeader.classList.add('fixed-top');
-
-       
-        
-       
       } else {
         selectHeader.classList.remove('scrolled-header');
         selectHeader.classList.remove('fixed-top');

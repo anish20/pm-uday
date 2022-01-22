@@ -25,6 +25,7 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css?v=1" rel="stylesheet">
@@ -33,6 +34,27 @@
     top:0 !important;
     transition: all .3s;
   }
+  .float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 115px;
+    right: 12px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    /* box-shadow: 0px 2px 2px #999; */
+    z-index: 100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+.float:hover{color: white;}
+.my-float:hover{color: white;}
+#faq-list-2 .list{ margin: 0px 15px;}
 </style>
 
 </head>
@@ -80,9 +102,9 @@
           <li><a class="nav-link scrollto active" href="#slider">Home</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto" href="#about_pmuday">About PM-Uday</a></li>
+          <li ><a class="nav-link scrollto" href="#faq">Frequently Asked Questions</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <li><a class="nav-link scrollto" href="#help-desk">Help-Desk</a></li>
-          <li ><a class="nav-link scrollto" href="#faq">Frequently Asked Questions</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
        
@@ -187,7 +209,7 @@
         <div class="section-title">
           <h2>About PM-Uday</h2>
         </div>  
-        <div class="content">
+        <div class="content" style="font-size: 15px;line-height: 24px;">
           <p>
             DDA PM-Uday Yojana is a scheme launched by the government of India for Delhi citizens under which people with flats and houses in unauthorized colonies can apply online and get ownership rights. PM-Uday registration online portal is already active for the registry of all flats and houses falling under unauthorized colonies. According to the PM Uday news, one needs to follow the PM-Uday registration process and get the registry papers by paying a nominal fee.
           </p>
@@ -214,6 +236,18 @@
             <li>Any other Ownership document</li>
           </ul>
           <p>If you possess these documents, you can quickly complete the PM-Uday registration process. If there is any query while performing the PM Uday unauthorized colony registration, contact PM Uday help desk by making a call on PM Uday helpline number. The experts will resolve all the queries you are facing while completing the registration process. If you are not able to reach the official PM Uday help desk, then contact our helpline number. We are available 24/7 to resolve all your queries and give you all the details regarding the PM-Uday scheme.</p>
+          <h4 class="text-primary">PM-Uday Registration Process</h4>
+          <p class="mt-1">
+            If you are looking to apply for PM-Uday Yojana online, you must complete the PM-Uday registration process. You have to visit the online portal of the DDA PM-Uday scheme and complete the registration. If you face a problem while applying for the PM Uday awas adhikar yojana, contact the PM Uday help desk by making a call on the PM Uday DDA helpline number. The experts sitting there will resolve your queries and help you in filling the application form. However, sometimes it becomes difficult to contact the experts of the official PM Uday help desk due to heavy rush. In that case, you can take our help by calling our support number, and we will complete your PM Uday online registration on your behalf without any trouble. Now, let’s discuss the process of PM-Uday online registration.
+          </p>
+          <p>User Registration:First, you have to sign up by entering the communication details and the details of your property for which you are filling the form.</p>
+          <ul>
+            <li><a href="https://pmuday.ncog.gov.in/login">Visit this page</a> to start the PM-Uday online registration process.</li>
+            <li>Fill all the details carefully and then submit the application form.</li>
+            <li>Once the registration is successful, you will get an acknowledged receipt that contains PM uday registration number. Note it down or take a print out. In case of any issue, contact PM-Uday customer care number.</li>
+            
+          </ul>
+          <a href="#" class="btn btn-sm btn-primary border-0" id="read_more">Read More -></a>
         </div>
       </div>
      </section>
@@ -227,49 +261,85 @@
           <h2>Frequently Asked Questions</h2>
         </div>
 
-        <div class="faq-list">
+        <div class="faq-list" style="padding: 5px 0px;">
           <ul>
             <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">What is PM-UDAY? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
                 <p>
-                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                  PM-UDAY (Prime Minister – Unauthorized Colonies in Delhi Awas Adhikar Yojana)
+                  Scheme is a decision of Union Cabinet to confer the ownership or transfer/ mortgage
+                  rights to the residents of Unauthorized Colonies in Delhi.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">What are the benefits under the PM-UDAY Scheme? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                </p>
+                  The PM-UDAY scheme is for conferment of property rights to the residents of
+                  1731 Unauthorized Colonies (UCs) in Delhi. The regularization of UCsentails approval of
+                  layout plans of the colony, which in turn requires fire clearances of the colony and the
+                  properties therein from Department of Delhi Fire Services, Govt of NCT of Delhi.
+                 </p>
+                 <p>The conferment of property rights for Govt / Pvt Land under PM-UDAY will allow the
+                  residents of UCs the following:</p>
+                  <p class="mr-2">
+                  <div class="list"><b>1-</b>&nbsp;&nbsp;The residents can sale/purchase their properties without any hindrance.</div>
+                  <div class="list"><b>2-</b>&nbsp;&nbsp; Residents can avail loans from banks / financial institutions against their
+                    properties.</div>
+                   
+                  <div  class="list"> <b>3-</b>&nbsp;&nbsp;Residents can get building plans approved if they want to change
+                        anything in the present building or construct house in the vacant plot for whichthey
+                        have got property rights.
+                    </div> 
+                    </p>   
+                  <p>
+                    Further, conferment of rights opens up huge possibility of redevelopment. DDA willcome
+                    out with relaxed development control norms and incentives in terms of
+                    higher Floor Area Ratio (FAR) in these colonies so that new development can take place
+                    with much wider roads, green areas, public spaces like parks etc., adequate infrastructure
+                    in terms of water, sewer, sanitation etc., social amenities like schools, hospitals,
+                    entertainment etc. This will bring ease in life of citizens and improve their quality of
+                    lives.
+                  </p>
+                  <p>Therefore, conferment of rights will give far more to the residents of UCs thanmere
+                    regularization, for name sake.</p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">How many colonies have been covered by the notified Regulations? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                  The notified Regulations dt. 29.10.2019 covers 1731 Unauthorized Colonies (UCs)
+                  existing as on 01.06.2014 provided they have minimum 50% built-up area as on
+                  01.01.2015 identified by Government of National Capital Territory of Delhi.
+
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">How many UCs are excluded in these Regulations? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                  The Regulation excludes 69 Affluent Unauthorized Colonies.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="500">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">What are documents required for conferment of ownership rights underPM
+                UDAY Scheme.<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                  Any resident of any unauthorized colony having registered or un-registered or notarized
+                  Power of Attorney, Agreement to Sale, Will, possession letter and other documents including
+                  evidencing payment of consideration shall be eligible for right ofownership or transfer or
+                  mortgage through a conveyance deed or authorization slip, as the case may be.
+
                 </p>
               </div>
             </li>
@@ -295,7 +365,7 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>2nd Floor 487/64 , National Market Peeragarhi <br>Near PNB Bank, New Delhi 110087</p>
               </div>
 
               <div class="email">
@@ -324,10 +394,16 @@
                 <div class="col-md-6 form-group mt-3 mt-md-0">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
+              
+             
+              <div class="col-md-6 form-group mt-3">
+                <input type="text" class="form-control" name="mobile" id="subject" placeholder="Mobile No" required>
               </div>
-              <div class="form-group mt-3">
+              <div class="col-md-6 form-group mt-3 ">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
+            </div>
+
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
@@ -346,7 +422,14 @@
       </div>
     </section><!-- End Contact Section -->
 
+    
   </main><!-- End #main -->
+  
+  <div class="disclamer bg-light p-2" >
+    <div class="container">
+      <p><strong>Disclaimer:-</strong>PM Uday.org helps the users fill out the application form to get the propertie’s ownership rights under PM-Uday Scheme. We are not associated with the official website or any government body unless indicated by us. Any use of brand names, scheme names, logo and services provided on this website is for customers reference only. Kindly read the Terms and Conditions.</p>
+    </div>
+</div>
 
   <!-- ======= Footer ======= -->
   <div class="footer-newsletter">
@@ -358,19 +441,16 @@
       <div class="copyright">
         &copy; Copyright All Rights Reserved
       </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/ -->
-        Designed by <a href="#">VjTech Solutions</a>
-      </div>
+     
     </div>
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
+  <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hello there,Thanks to messaging us we will shortly reply you." class="float shadow-lg" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    <!-- <i class="bi bi-whatsapp"></i> -->
+    </a>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
