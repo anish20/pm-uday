@@ -933,7 +933,7 @@ section {
   float: left;
   color: #f6b024;
   font-size: 40px;
-  line-height: 0;
+  line-height: 3;
 }
 .services .icon-box h4 {
   margin-left: 70px;
@@ -2117,24 +2117,34 @@ section {
 
 @media(max-width:900px) and (min-width:300px) {
   .middle_bar .ct-left{
-    text-align: center;
+    /* text-align: center; */
   }
   .middle_bar .ct-left img{
     width:120px ;
   }
   
-  .middle_bar .ct-center{
-    text-align: center;
-  }
-  .middle_bar .ct-center img{
-    width: 270px; 
-    margin-top: -17px;
-  }
-  .middle_bar .ct-right{
-    text-align: center;
-  }
-  .middle_bar .ct-right img{
-    width: 110px;
-  }
   
+
+  .section-title h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+#contact-area{
+  display: none !important;
+}
+
+#dda_logo{
+    position: absolute;
+    right: -75%;
+    top: 72px;
+}
+  
+}
+
+.contact-info i{
+  color: #f6b024;
+  font-weight: 400;
+}
+.contact-info span{
+  font-weight: 600;
 }
