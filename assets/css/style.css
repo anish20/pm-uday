@@ -70,17 +70,28 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   background: #fff;
 }
+#preloader img{
+  position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    top: calc(50% - 22px);
+    left: calc(50% - 39px);
+    overflow: hidden;
+}
 
 #preloader:before {
   content: "";
   position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #0880e8;
-  border-top-color: #bfe0fd;
+  top: calc(48% - 30px);
+  left: calc(48% - 30px);
+  border: 6px solid #009b46; 
+  border-top-color: #ee5b0b; 
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
 }
@@ -1504,6 +1515,8 @@ section {
 .contact .php-email-form button[type=submit]:hover {
   background: #0880e8;
   color: #fff;
+  transition: all 0.3s;
+  
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -2120,9 +2133,9 @@ section {
 }
 
 @media(max-width:900px) and (min-width:300px) {
-  .middle_bar .ct-left{
-    /* text-align: center; */
-  }
+  /* .middle_bar .ct-left{
+    text-align: center;
+  } */
   .middle_bar .ct-left img{
     width:120px ;
   }
@@ -2159,6 +2172,13 @@ section {
   
 .carousel-item img{
   height: 230px !important;
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(48% - 31px);
+  left: calc(41% - 29px);
 }
 
 }
