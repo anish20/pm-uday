@@ -80,10 +80,10 @@
     <div class="container">
       <div class="row d-flex justify-content-md-center">
         <div class="col-md-4 col-sm-6 col-xm-6 ct-left">
-          <img src="assets/img/pmuday_img/pmuday_logo.jpg">
+          <img src="assets/img/pmuday_img/dda_logo.png"> 
         </div>
-        <div class="col-md-2  col-sm-6 col-xm-6 d-flex align-items-center" id="dda_logo">
-          <img src="assets/img/pmuday_img/dda_logo.png"  style="width:90px">
+        <div class="col-md-2  col-sm-6 col-xm-6 d-flex align-items-center" >
+          <img src="assets/img/pmuday_img/pmuday_logo.jpg" id="dda_logo"  style="width:115px">
         </div>
           <div class="col-md-6 d-flex align-items-center justify-content-end" id="contact-area">
                <div class="contact-info d-flex align-items-center">
@@ -118,14 +118,6 @@
                  <a href="#">9:00 AM to 6:00 PM</a> 
                 </div>
               </div>
-
-             
-
-
-
-
-
-
             </div>
           </div>
       </div>
@@ -144,6 +136,7 @@
           <li><a class="nav-link scrollto" href="#about_pmuday">About PM-Uday</a></li>
           <li ><a class="nav-link scrollto" href="#faq">Frequently Asked Questions</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
+          <li><a class="nav-link " id="apply_link" href="#"data-bs-toggle="modal" data-bs-target="#exampleModal">Apply Now</a></li>
           <!-- <li><a class="nav-link scrollto" href="#help-desk">Help-Desk</a></li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -276,7 +269,8 @@
             <li>Any other Ownership document</li>
           </ul>
           <p>If you possess these documents, you can quickly complete the PM-Uday registration process. If there is any query while performing the PM Uday unauthorized colony registration, contact PM Uday help desk by making a call on PM Uday helpline number. The experts will resolve all the queries you are facing while completing the registration process. If you are not able to reach the official PM Uday help desk, then contact our helpline number. We are available 24/7 to resolve all your queries and give you all the details regarding the PM-Uday scheme.</p>
-          <h4 class="text-primary">PM-Uday Registration Process</h4>
+          <div class="moretext">
+          <h4 class="text-primary mt-2">PM-Uday Registration Process</h4>
           <p class="mt-1">
             If you are looking to apply for PM-Uday Yojana online, you must complete the PM-Uday registration process. You have to visit the online portal of the DDA PM-Uday scheme and complete the registration. If you face a problem while applying for the PM Uday awas adhikar yojana, contact the PM Uday help desk by making a call on the PM Uday DDA helpline number. The experts sitting there will resolve your queries and help you in filling the application form. However, sometimes it becomes difficult to contact the experts of the official PM Uday help desk due to heavy rush. In that case, you can take our help by calling our support number, and we will complete your PM Uday online registration on your behalf without any trouble. Now, let’s discuss the process of PM-Uday online registration.
           </p>
@@ -287,7 +281,9 @@
             <li>Once the registration is successful, you will get an acknowledged receipt that contains PM uday registration number. Note it down or take a print out. In case of any issue, contact PM-Uday customer care number.</li>
             
           </ul>
-          <a href="#" class="btn btn-sm btn-primary border-0" id="read_more">Read More -></a>
+
+          </div>
+          <button type="submit" id="moreless_button" class="btn btn-sm btn-primary border-0" id="read_more">Read more</button>
         </div>
       </div>
      </section>
@@ -485,9 +481,77 @@
     </div>
   </footer><!-- End Footer -->
 
+  <!----ApplyNow Model----->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content  rounded-0">
+        <div class="modal-header rounded-0 bg-warning">
+          <h5 class="modal-title text-white" id="exampleModalLabel">Application Form</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4 col-sm-6 col-xs-6 ">
+          <label for="fname" class="form-label">First Name <span class="text-danger">*</span></label>
+          <input type="text" class="form-control" id="fname" placeholder="First Name" required>
+          <div class="fname_error"></div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6">
+          <label for="lname" class="form-label">Last Name  <small>(Optional)</small></label>
+          <input type="text" class="form-control" id="lname" placeholder="Last Name" required>
+          <div class="lname_error"></div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6">
+          <label for="mobile_no" class="form-label">Mobile No <span class="text-danger">*</span></label>
+          <input type="text" class="form-control" id="mobile_no" placeholder="Mobile No" required>
+          <div class="mobile_no_error"></div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6">
+          <label for="alt_no" class="form-label">Alternate No <span class=""><small>(Optional)</small></span></label>
+          <input type="text" class="form-control" id="alt_no" placeholder="Alternate No" required>
+          <div class="alt_no_error"></div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6">
+          <label for="email" class="form-label">Email Id <span class="text-danger">*</span></label>
+          <input type="email" class="form-control" id="email" placeholder="Email Id" required>
+          <div class="email_error"></div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6">
+          <label for="gender" class="form-label">Gender <span class="text-danger">*</span></label>
+          <select id="gender" class="form-control">
+            <option value="unknown">--Gender--</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          <div class="gender_error"></div>
+        </div>
+
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <label for="gender" class="form-label">Full Address</label>
+          <textarea id="address" rows="3" class="form-control" required="" placeholder="Full Address"></textarea>
+          <div class="address_error"></div>
+        </div>
+       
+        
+        <div class="row g-3">
+          <div class="col-md-12">
+            <button type="button" class="btn btn-primary">Save <i class="bi bi-file-earmark-code-fill"></i></button>
+            <button type="button" class="btn btn-secondary" >Clear <i class="bi bi-x-circle"></i></button>
+            
+          </div>
+        </div>
+
+      </form>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  <!----ApplyNow Model End----->
+
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-  <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hello there,Thanks to messaging us we will shortly reply you." class="float shadow-lg" target="_blank">
+  <a    data-bs-toggle="tooltip" data-bs-placement="left"  title="WhatsApp Chat for more Queries and we will shortly reply your of queries"  href="https://api.whatsapp.com/send?phone=51955081075&text=Hello there,Thanks to messaging us we will shortly reply you." class="float shadow-lg" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
     <!-- <i class="bi bi-whatsapp"></i> -->
     </a>
@@ -498,14 +562,40 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script>
+//Tootips
+$(function () {
+  $('[data-bs-toggle="tooltip"]').tooltip({
+    delay: { "show": 500, "hide": 100 }
+  })
+})
 
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
 }
+
+$(document).ready(()=>{
+  $('.moretext').hide();
+  //ReadMore and readless
+$('#moreless_button').click(function() {
+  if ($('#moreless_button').text() == "Read more") {
+    $(this).text("Read less")
+    $('.moretext').show();
+  } else {
+    $(this).text("Read more")
+    $('.moretext').hide();
+ 
+  }
+});
+
+});
+
+
 </script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
   

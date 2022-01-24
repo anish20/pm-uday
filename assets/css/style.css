@@ -168,20 +168,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .middle_bar .ct-left{
   text-align: left;
+ 
 }
 .middle_bar .ct-left img{
-  width:150px ;
+  width:120px;
+  padding: 7px;
 }
 
 .middle_bar .ct-center{
   text-align: center;
-}
-.middle_bar .ct-center img{width: 400px; margin-top: 30px;}
-.middle_bar .ct-right{
-  text-align: right;
-}
-.middle_bar .ct-right img{
-  width: 173px;
 }
 
 /*--------------------------------------------------------------
@@ -246,6 +241,11 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   padding: 10px 0 10px 24px;
 }
+
+.navbar #apply_link{
+  background-color: #f6b024; padding: 5px 20px;color: white;border-radius: 50px;
+}
+
 .navbar a, .navbar a:focus {
   display: flex;
   align-items: center;
@@ -274,10 +274,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
 }
+
+
 .navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
   visibility: visible;
   width: 100%;
 }
+
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #fff;
 }
@@ -2123,8 +2126,6 @@ section {
     width:120px ;
   }
   
-  
-
   .section-title h2 {
     font-size: 30px;
     margin-bottom: 15px;
@@ -2134,9 +2135,14 @@ section {
 }
 
 #dda_logo{
-    position: absolute;
-    right: -75%;
-    top: 72px;
+  width: 100px !important;
+  position: absolute;
+  top: 66px;
+  right: 16px;
+}
+
+.navbar #apply_link{
+  width: 35%;
 }
   
 }
