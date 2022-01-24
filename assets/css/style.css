@@ -2158,11 +2158,14 @@ section {
 }
   
 .carousel-item img{
-  height: 200px !important;
+  height: 230px !important;
 }
 
 }
 
+.carousel-item img{
+  height: 450px ;
+}
 .contact-info i{
   color: #f6b024;
   font-weight: 400;
