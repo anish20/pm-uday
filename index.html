@@ -10,9 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/pmuday_img/fevicon.png" rel="icon">
-  
-
+  <link rel="SHORTCUT ICON" href="assets/img/pmuday_img/icon.png">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -67,12 +65,12 @@
     <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">helpdesk@pmuday.co.in</a>
-        <i class="bi bi-phone-fill phone-icon"></i> +9155895548855
+        <i class="bi bi-phone-fill phone-icon"></i> <a href="tel:+919355267979" style="text-decoration: none;">+919355267979</a>
       </div>
       <div class="social-icons d-none d-md-block">
         <a href=""><i class="bi bi-facebook"></i></a>
         <a href=""><i class="bi bi-twitter"></i></a>
-        <a href=""><i class="bi bi-whatsapp"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=+919355267979&text=Hello there,Thanks to messaging us we will shortly reply you." target="_blank"><i class="bi bi-whatsapp"></i></a>
       </div>
     </div>
   </div>
@@ -94,7 +92,7 @@
                 </div>
                 <div class="flex-grow-1 ms-2">
                   <span>Call Us</span><br>
-                 <a href="">+9185553252</a>   
+                 <a style="font-size:14px;" href="tel:+919355267979">+919355267979</a>   
                 </div>
               </div>
 
@@ -104,8 +102,9 @@
                 </div>
                 <div class="flex-grow-1 ms-2">
                  <span>Mail Us</span>  <br>
-                  <a href="">helpdesk@gmail.com</a>
-                 
+                 <a href="mailto:contact@example.com" style="font-size:14px;" >helpdesk@pmuday.co.in</a>
+                  <!-- <a href="" >helpdesk@gmail.com</a>
+                  -->
                 </div>
               </div>
 
@@ -115,7 +114,7 @@
                 </div>
                 <div class="flex-grow-1 ms-2">
                  <span>Office Time </span> <br>
-                 <a href="#">9:00 AM to 6:00 PM</a> 
+                 <a href="#" style="font-size:14px;">9:00 AM to 6:00 PM</a> 
                 </div>
               </div>
             </div>
@@ -543,7 +542,6 @@
           <div class="address_error"></div>
         </div>
        
-        
         <div class="row g-3">
           <div class="col-md-12">
             <button type="button" class="btn btn-primary">Save <i class="bi bi-file-earmark-code-fill"></i></button>
@@ -562,7 +560,7 @@
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-  <a    data-bs-toggle="tooltip" data-bs-placement="left"  title="WhatsApp Chat for more Queries and we will shortly reply your of queries"  href="https://api.whatsapp.com/send?phone=51955081075&text=Hello there,Thanks to messaging us we will shortly reply you." class="float shadow-lg" target="_blank">
+  <a data-bs-toggle="tooltip" data-bs-placement="left"  title="WhatsApp Chat for more Queries and we will shortly reply of your queries"  href="https://api.whatsapp.com/send?phone=+919355267979&text=Hello there,Thanks to messaging us we will shortly reply you." class="float shadow-lg" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
     <!-- <i class="bi bi-whatsapp"></i> -->
     </a>
@@ -589,23 +587,6 @@ $(function () {
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
 }
-
-$(document).ready(()=>{
-  $('.moretext').hide();
-  //ReadMore and readless
-$('#moreless_button').click(function() {
-  if ($('#moreless_button').text() == "Read more") {
-    $(this).text("Read less")
-    $('.moretext').show();
-  } else {
-    $(this).text("Read more")
-    $('.moretext').hide();
- 
-  }
-});
-
-});
-
 
 </script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
