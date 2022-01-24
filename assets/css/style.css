@@ -2157,6 +2157,10 @@ section {
   padding: 0 8px !important;
 }
   
+.carousel-item img{
+  height: 200px !important;
+}
+
 }
 
 .contact-info i{
