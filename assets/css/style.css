@@ -2137,7 +2137,7 @@ section {
     text-align: center;
   } */
   .middle_bar .ct-left img{
-    width:120px ;
+    width:100px ;
   }
   
   .section-title h2 {
@@ -2149,9 +2149,9 @@ section {
 }
 
 #dda_logo{
-  width: 100px !important;
+  width: 97px !important;
   position: absolute;
-  top: 66px;
+  top: 61px;
   right: 16px;
 }
 
